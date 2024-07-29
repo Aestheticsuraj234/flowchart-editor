@@ -13,7 +13,7 @@ const TableNode: React.FC<NodeProps> = ({ data }) => {
             <tr key={index} className="border-t">
               <td className="py-1 px-2 font-semibold">{field.name}</td>
               <td className=" px-4 py-2 border rouned-md ">
-              <Badge variant="destructive">
+              <Badge variant="brand">
               {field.type || field.ref}
               </Badge>
 

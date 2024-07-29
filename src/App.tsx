@@ -18,9 +18,9 @@ const App: React.FC = () => {
         <SchemaVisualizer schema={schema} />
         <div
           className="
-      sticky
+      absolute
       bottom-40
-      left-2
+      left-6
       mx-2
       "
         >
